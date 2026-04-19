@@ -1,0 +1,67 @@
+
+            h1 {
+                font-size: 45px;
+                background-color: #abb42d;
+                border-collapse: collapse;
+                border: 1px;
+                text-align: center;
+                
+            }
+            h2 {
+                font-family: sans-serif, Verdana, Tahoma, Georgia ;
+                color: #cf8895;
+                size: 20px;
+                text-align: center;
+            }
+            h3 {
+                font-family: sans-serif, Verdana, Tahoma, Georgia ;
+                color: #cf8895;
+                size: 20px;
+                text-align: center;
+            }
+            body {
+                background-color: #0b681a;
+                font-size: 20px;
+                font-family: sans-serif;
+                margin: 50px;
+            }
+            p {
+                font-family: sans-serif, Verdana, Tahoma, Georgia ;
+                color: #cf8895;
+                size: 20px;
+                text-align: center;
+            }
+            table {
+                margin: 0 auto;
+                background-color: #abb42d;
+                border-collapse: collapse;
+                border: 1px solid black; 
+            }
+            table td {
+                padding: 40px;
+                border: 1px solid black;
+                
+            }
+            table th {
+                padding: 40px;
+                border: 1px solid black;  
+            }
+
+            img {
+                width: 300px;
+                height: 200px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            figcaption {
+                text-align: center;
+                font-size: medium; 
+                margin-top: 10px;
+            }
+
+            ol {
+                list-style-position: inside;
+            }
+       
+       
