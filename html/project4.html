@@ -1,13 +1,24 @@
 <!DOCTYPE html >
 <html lang="en">
     <head>
-        <title>My Kitty - Project 3</title>
+        <title>My Kitty - Project 4</title>
         <link rel="stylesheet" href="../css/styles.css"> 
         
     </head>
 
-    <body    >
-     
+    <body>
+
+        <section id="guestbook">
+    <h3>Sign Madame Nyx's Guestbook</h3>
+    <form id="nyxForm">
+        <label for="userName">Your Name:</label>
+        <input type="text" id="userName" placeholder="Enter your name" required>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    
+    <div id="greetingDisplay"></div>
+    </section>
+
     <h1 >Madame Nyx</h1>
     <h2 >This is Madame Nyx, she is an American Shorthair with black fur.</h2>
     
@@ -31,7 +42,7 @@
             </td>
         </tr>
     </table>
-    <p  >I came accross Madame Nyx at Petco one fateful night about five years ago while I picking some dog food for a friend. She was in the cat adoption 
+    <p  >I came across Madame Nyx at Petco one fateful night about five years ago while I picking some dog food for a friend. She was in the cat adoption 
         area. Her name at the time was Mouse, she looked miserable inside the little cage. I went up to the
         cage and she came right up and to the front of the cage and was very friendly. I inquired about her and the
         staff gave me her file. Her assessment was for the most part was empty. The file stated she was not friendly 
@@ -68,10 +79,12 @@
         <ul>
              <li><a href="../index.html"  target="_blank" title="Returns to Index Page">Index of my project</a></li>
              <li><a href="../html/project2.html" target="_blank" title=" Project2 Page">Madame Nyx - Project 2</a></li>
-             <li><a href="../html/project4.html" target="_blank" title=" Project2 Page">Madame Nyx - Project 4</a></li>
+             <li><a href="../html/project3.html" target="_blank" title=" Project2 Page">Madame Nyx - Project 3</a></li>
         </ul>
     </nav>
 
- 
+    
+    <script src="../javascript/script.js"></script> <!-- Link your file (ensure the path is correct for your folder). This should be on the bottom of 
+    the page due to top down loading -->
     </body>
 </html>
