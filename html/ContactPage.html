@@ -1,0 +1,100 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <title>GreenTech - Contact Us</title>
+        <link rel="stylesheet" href="../css/stylesFP.css"> 
+        
+    </head>
+<!-- ContactPage: 
+ Include a contact form, company email, phone number, and physical address. 
+ -->
+    <body>
+
+        <nav class="navbar">
+            <div class="nav-logo">
+            🌿 GreenTech Solutions
+        </div>
+            <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            ☰
+            </button>
+        <div class="nav-links" id="nav-links">
+            <a href="FinalProject.html" target="_blank">Home</a>
+            <a href="AboutUsFP.html" target="_blank">About</a>
+            <a href="ServicesPage.html" target="_blank">Products</a>
+            <a href="ResourcesPage.html" target="_blank">Resources</a>
+            <a href="ContactPage.html" target="_blank">Contact</a>
+        </div>
+      </nav>
+
+    <h1>Contact Us</h1>
+
+    <h2 >Whether you have a product question, a partnership idea, or you're ready to begin your sustainability journey, we'd love 
+to hear from you. Our team typically responds within one business day.</h2>
+
+    <figure>            <!-- image place holder -->
+        <img src="../images/ImgS4.jpg" alt="Keyboards keys flying arond" title="Keyboards keys flying arond">
+            <figcaption>Looking up at trees as the sunlight shines down</figcaption>
+    </figure>
+
+
+<h3>Contact Details</h3>
+
+<div class="centered-list">
+  <ul>
+    <li>Email: hello@greentechsolutions.com</li>
+    <li>Phone: +1 (123) 456-7890</li>
+    <li>Address: 220 Sustainable Way, Suite 400, GreenTech Land, GT 54321</li>
+    <li>Office Hours: Monday – Friday, 9:00 AM – 6:00 PM Pacific Time</li>
+  </ul>
+</div>
+
+
+
+<form id="contact-form">
+  <div class="form-group">
+    <label for="firstName">First name</label>
+    <input type="text" id="firstName" placeholder="Madame">
+    <span class="error" id="firstName-error">Please enter your first name.</span>
+  </div>
+
+  <div class="form-group">
+    <label for="lastName">Last name</label>
+    <input type="text" id="lastName" placeholder="Smith">
+    <span class="error" id="lastName-error">Please enter your last name.</span>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="text" id="email" placeholder="MadameNyx@company.com">
+    <span class="error" id="email-error">Please enter a valid email address.</span>
+  </div>
+
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <select id="subject">
+      <option value="">Select a subject...</option>
+      <option value="product">Product enquiry</option>
+      <option value="partnership">Partnership</option>
+      <option value="support">Support</option>
+      <option value="press">Press & media</option>
+      <option value="other">Madame Nyx</option>
+    </select>
+    <span class="error" id="subject-error">Please select a subject.</span>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Tell us why you are contacting us."></textarea>
+    <span class="error" id="message-error">Please enter a message.</span>
+  </div>
+
+  <button type="button" onclick="validateForm()">Send Message</button>
+  <div class="success-msg" id="success-msg">
+    Thanks! Madame Nyx will be in touch.
+  </div>
+</form>
+    
+    <script src="../javascript/scriptFP.js"></script> <!-- Link your file (ensure the path is correct for your folder). This should be on the bottom of 
+    the page due to top down loading -->
+    </body>
+</html>
